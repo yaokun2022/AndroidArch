@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable name="vm" type="com.yaokun.mvvm.login.LoginViewModel" />
+        <import type="android.view.View"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--  登陆页面  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            tools:context=".ui.LoginActivity">
+
+            <!-- title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_header"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="27dp"
+                        android:layout_marginTop="78dp"
+                        android:text="蓝天停车"
+                        android:textColor="@color/white"
+                        android:textSize="24sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="27dp"
+                        android:layout_marginTop="6dp"
+                        android:text="欢迎使用蓝天停车移动商户端"
+                        android:textColor="#80FFFFFF"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="67dp"
+                    android:src="@drawable/ic_login_car" />
+
+            </LinearLayout>
+
+
+            <!-- content -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="-16dp"
+                android:layout_weight="3"
+                android:background="@drawable/ll_radius"
+                android:elevation="16dp"
+                android:orientation="vertical"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="33dp"
+                    android:text="登录"
+                    android:textColor="#ff303030"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="44dp"
+                    android:text="账号"
+                    android:textColor="#ff000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/login_input_height"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/login_input_boarder"
+                    android:text="@={vm.usernameData}"
+                    android:hint="请输入手机号码"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:padding="12dp"
+                    android:textColor="#ff000000"
+                    android:textSize="15sp"
+                    android:drawableEnd="@{vm.isPhoneData?@drawable/login_username_ic:@drawable/ic_login_error}"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="密码"
+                    android:textColor="#ff000000"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/login_input_height"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/login_input_boarder"
+                    android:orientation="horizontal"
+                    android:paddingStart="12dp">
+
+                    <EditText
+                        android:id="@+id/pwd"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:gravity="left|center"
+                        android:hint="请输入密码"
+                        android:inputType="textPassword"
+                        android:maxLength="15"
+                        android:maxLines="1"
+                        android:textColor="#ff000000"
+                        android:textSize="15sp"
+                        android:text="@={vm.passwordData}"
+                        />
+
+                    <ImageView
+                        android:id="@+id/showPwd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:paddingEnd="12dp"
+                        android:src="@{vm.isShowPwdData?@drawable/login_pwd_ic:@drawable/login_pwd_ic2}"
+                        android:onClick="@{()->vm.toggleShowPwd()}"
+                        tools:src="@drawable/login_pwd_ic" />
+                </LinearLayout>
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="@{vm.isShowProgressBar?View.VISIBLE:View.GONE}"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textColor="#ff0000"
+                    android:text="@{vm.errorHintData}"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="44dp"
+                    android:background="@drawable/login_btn"
+                    android:gravity="center"
+                    android:text="登录"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp"
+                    android:onClick="@{()->vm.login()}"
+                    />
+
+                <TextView
+                    android:id="@+id/fp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:onClick="forgetPwdClick"
+                    android:text="忘记密码？"
+                    android:textColor="#ff3d90ff"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--  加载进度条  -->
+        <LinearLayout
+            android:id="@+id/networkLoading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</layout>
+

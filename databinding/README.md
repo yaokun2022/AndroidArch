@@ -20,16 +20,24 @@ android {
 
 以前写法
 ```java
-TextView textView = findViewById(R.id.sample_text);
+TextView textView = findViewById(R.id.tv);
 textView.setText(viewModel.getUserName());
 ```
 
 现在写法
+xml：
 ```XML
 <TextView
     android:text="@{viewmodel.userName}" />
 ```
 
+or
+
+
+java
+```java
+bind.tv.setText(viewModel.getUserName());
+```
 
 ## 布局和绑定表达式
 ```xml

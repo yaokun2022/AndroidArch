@@ -7,29 +7,28 @@
 在AndroidManifest.xml添加
 
 ```groovy
-
-< manifest
-· · ·
-< uses - permission android: name = "android.permission.INTERNET" / >
-
-        < application
-· · ·
-android:
-networkSecurityConfig = "@xml/network_security_config"
+    
+    <manifest
+            ...
+             <uses - permission android: name = "android.permission.INTERNET" / >
+            
+            <application
+                ...
+                android:networkSecurityConfig = "@xml/network_security_config"
 
 ```
 
 ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-<network-security-config>
-    <domain-config>
-        <domain includeSubdomains="true">sunofbeaches.com</domain>
-        <domain-config cleartextTrafficPermitted="true">
-            <domain includeSubdomains="true">www.sunofbeach.net</domain>
-            <domain includeSubdomains="true">imgs.sunofbeaches.com</domain>
+        <?xml version="1.0" encoding="utf-8"?>
+    <network-security-config>
+        <domain-config>
+            <domain includeSubdomains="true">sunofbeaches.com</domain>
+            <domain-config cleartextTrafficPermitted="true">
+                <domain includeSubdomains="true">www.sunofbeach.net</domain>
+                <domain includeSubdomains="true">imgs.sunofbeaches.com</domain>
+            </domain-config>
         </domain-config>
-    </domain-config>
-</network-security-config>
+    </network-security-config>
 ```
 
 允许这些域名明文访问，否则http会报错
@@ -67,25 +66,26 @@ private void loadImage() {
     }
 }
 ```
-##处理结果显示图片
+
+## 处理结果显示图片
 
 ```groovy
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="requestImage"
-        android:text="请求图片" />
-
-    <ImageView
-        android:id="@+id/image_result"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-</LinearLayout>
+            <?xml version="1.0" encoding="utf-8"?>
+                <LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"> 
+                            
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="requestImage"
+                        android:text="请求图片" />
+                    
+                    <ImageView
+                        android:id="@+id/image_result"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+        
+                </LinearLayout>
 ```

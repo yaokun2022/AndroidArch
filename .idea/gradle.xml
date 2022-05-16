@@ -12,9 +12,14 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/databinding" />
+            <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/mediaplayer" />
+            <option value="$PROJECT_DIR$/mqtt" />
             <option value="$PROJECT_DIR$/mvc" />
             <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/mvvm" />
+            <option value="$PROJECT_DIR$/rxandroid" />
+            <option value="$PROJECT_DIR$/soundpool" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -4,6 +4,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        maven { url "https://oss.jfrog.org/libs-snapshot" }
     }
 }
 rootProject.name = "AndroidArch"
@@ -12,3 +13,8 @@ include ':mvc'
 include ':mvp'
 include ':mvvm'
 include ':databinding'
+include ':mediaplayer'
+include ':soundpool'
+include ':mqtt'
+include ':rxandroid'
+include ':eventbus'

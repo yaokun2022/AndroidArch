@@ -13,12 +13,58 @@
         <entry key="..\:/Users/bigoat/AndroidStudioProjects/AndroidArch/mvvm/src/main/res/drawable/retrieve_select_pwd.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/bigoat/AndroidStudioProjects/AndroidArch/mvvm/src/main/res/drawable/retrieve_select_pwd2.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/bigoat/AndroidStudioProjects/AndroidArch/mvvm/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/arouter/arouterdemo/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/arouter/arouterdemo/src/main/res/layout/activity_second.xml" value="0.2" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/arouter/arouterdemo/src/main/res/layout/fragment_first.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/arouter/arouterdemo/src/main/res/layout/fragment_second.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/arouter/arouterdemo/src/main/res/layout/fragment_third.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/arouter/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/arouter/src/main/res/layout/activity_main2.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/bbc/src/main/res/drawable/btn_border.xml" value="0.1095" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/bbc/src/main/res/drawable/input_border_color.xml" value="0.1095" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/bbc/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/bbc/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/bluetooth/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/bluetooth/src/main/res/layout/adatpter.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/butterknife/src/main/res/layout/activity_example.xml" value="0.8421052631578947" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/butterknife/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
         <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/eventbus/src/main/res/layout/activity_color_change.xml" value="0.24864130434782608" />
         <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/eventbus/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/eventbus/src/main/res/layout/activity_second.xml" value="0.12132725430597771" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/fragment/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/fragment/src/main/res/layout/fragment_down01.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/fragment/src/main/res/layout/fragment_down02.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/fragment/src/main/res/layout/fragment_up.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/fresco/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/getconfdemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/getconfdemo/src/main/res/layout/activity_main2.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/getconfdemo/src/main/res/layout/activity_second.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/getconfdemo/src/main/res/xml/nettools.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/goujin-entrance-guard/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/goujin-entrance-guard/src/main/res/layout/activity_oper_door.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/goujin-entrance-guard/src/main/res/layout/gj_community_view.xml" value="0.536" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/goujin-entrance-guard/src/main/res/layout/home_advertising_view.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/intentdemo/src/main/res/layout/activity_main.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/intentdemo/src/main/res/layout/activity_second.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/intentdemo/src/main/res/layout/activity_third.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/json/fastjson/src/main/res/layout/activity_main.xml" value="0.1203125" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/json/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/logindemo/src/main/res/layout/activity_login_suss.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/logindemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/logindemo/src/main/res/xml/net_work.xml" value="0.1" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/logindome/src/main/res/layout/activity_login_suss.xml" value="0.1578125" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/logindome/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/mediaplayer/src/main/res/layout/activity_main.xml" value="0.23007246376811594" />
         <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/mqtt/src/main/res/layout/activity_main.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/mvvm/src/main/res/layout/activity_login.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/okgo/src/main/res/layout/activity_main.xml" value="0.24818840579710144" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/okhttp/src/main/res/layout/activity_login_suss.xml" value="0.1" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/okhttp/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/retrofit/src/main/res/layout/activity_main.xml" value="0.2536231884057971" />
         <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/rxandroid/src/main/res/layout/activity_main.xml" value="0.24864130434782608" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/service/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/servicedemo/src/main/res/layout/activity_service.xml" value="0.2318840579710145" />
         <entry key="..\:/Users/jiashuai/AndroidStudioProjects/AndroidArch/soundpool/src/main/res/layout/activity_main.xml" value="0.13489583333333333" />
       </map>
     </option>

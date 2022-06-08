@@ -19,3 +19,12 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keepclassmembers 类*扩展 org.greenrobot.greendao.AbstractDao {
+public static java.lang.String TABLENAME ;
+}
+-keep 类** $Properties { * ; } #如果你使用 SQLCipher:
+-keep class org.greenrobot.greendao.database.SqlCipherEncryptedHelper { * ; } #如果你不使用 SQLCipher：
+-dontwarn net.sqlcipher.database。** #如果你不使用 RxJava：
+-dontwarn rx. **
+

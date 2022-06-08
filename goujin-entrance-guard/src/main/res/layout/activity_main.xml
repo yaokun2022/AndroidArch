@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.yk.goujin_entrance_guard.main.MainActivity" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        tools:context=".main.MainActivity">
+
+        <com.yk.goujin_entrance_guard.view.AdvertisingView
+            android:id="@+id/advertising_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.yk.goujin_entrance_guard.view.GjCommunityView
+            android:id="@+id/widget_community"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

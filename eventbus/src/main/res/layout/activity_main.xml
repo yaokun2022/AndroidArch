@@ -17,6 +17,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:hint="Event接收消息框" />
+        android:hint="Event接收消息框1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="Event接收消息框2" />
+
+
 
 </LinearLayout>

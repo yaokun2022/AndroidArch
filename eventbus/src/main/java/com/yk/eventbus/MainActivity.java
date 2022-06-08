@@ -12,37 +12,38 @@ import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
     Button button;
     TextView textView;
+    TextView tv2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //注册EventBus
-        EventBus.getDefault().register(this);
-
-        button = findViewById(R.id.btn_try);
-        textView = findViewById(R.id.tv);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SecondActivity.class);
-                startActivity(intent);
-            }
-        });
     }
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void EventMessage(EventMessage event){
+        Toast.makeText(MainActivity.this,"get: " + event.msg,Toast.LENGTH_SHORT).show();
 
+    }
     @Subscribe
-    public void onEventMainThread(FirstEvent event){
-        String msg = "onEventMainThread 收到消息了：" + event.getMsg();
-        Log.d("yk", msg);
-        textView.setText(msg);
-        Toast.makeText(this,msg,Toast.LENGTH_SHORT).show();
+    public void handleSomething(SomethingEvent event){
+        doSomething(event);
     }
+
+    private void doSomething(SomethingEvent event) {
+        //to do something
+    }
+
+    @Override
+    protected void onStart() {
+        EventBus.getDefault().register(MainActivity.this);
+        super.onStart();
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();

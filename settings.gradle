@@ -5,6 +5,7 @@ dependencyResolutionManagement {
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
         maven { url "https://oss.jfrog.org/libs-snapshot" }
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "AndroidArch"
@@ -18,3 +19,24 @@ include ':soundpool'
 include ':mqtt'
 include ':rxandroid'
 include ':eventbus'
+include ':greendao'
+include ':okhttp'
+include ':okgo'
+include ':arouter'
+include ':gson'
+include ':json'
+include ':logindemo'
+include ':getconfdemo'
+include ':retrofit'
+include ':intentdemo'
+include ':retrofit:retrofitdemo'
+include ':rxandroid:rxandroiddemo'
+include ':json:fastjson'
+include ':fresco'
+include ':butterknife'
+include ':arouter:arouterdemo'
+include ':fragment'
+include ':bbc'
+include ':goujin-entrance-guard'
+include ':bluetooth'
+include ':service'

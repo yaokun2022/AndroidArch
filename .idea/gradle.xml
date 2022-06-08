@@ -11,14 +11,35 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/arouter" />
+            <option value="$PROJECT_DIR$/arouter/arouterdemo" />
+            <option value="$PROJECT_DIR$/bbc" />
+            <option value="$PROJECT_DIR$/bluetooth" />
+            <option value="$PROJECT_DIR$/butterknife" />
             <option value="$PROJECT_DIR$/databinding" />
             <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/fresco" />
+            <option value="$PROJECT_DIR$/getconfdemo" />
+            <option value="$PROJECT_DIR$/goujin-entrance-guard" />
+            <option value="$PROJECT_DIR$/greendao" />
+            <option value="$PROJECT_DIR$/gson" />
+            <option value="$PROJECT_DIR$/intentdemo" />
+            <option value="$PROJECT_DIR$/json" />
+            <option value="$PROJECT_DIR$/json/fastjson" />
+            <option value="$PROJECT_DIR$/logindemo" />
             <option value="$PROJECT_DIR$/mediaplayer" />
             <option value="$PROJECT_DIR$/mqtt" />
             <option value="$PROJECT_DIR$/mvc" />
             <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/mvvm" />
+            <option value="$PROJECT_DIR$/okgo" />
+            <option value="$PROJECT_DIR$/okhttp" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/retrofit/retrofitdemo" />
             <option value="$PROJECT_DIR$/rxandroid" />
+            <option value="$PROJECT_DIR$/rxandroid/rxandroiddemo" />
+            <option value="$PROJECT_DIR$/service" />
             <option value="$PROJECT_DIR$/soundpool" />
           </set>
         </option>
